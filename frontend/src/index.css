@@ -1,0 +1,74 @@
+/* Global styles imported in the verified order */
+@import './styles/style.css';
+@import './styles/components.css';
+@import './styles/home.css';
+@import './styles/shop.css';
+@import './styles/mobile.css';
+@import './styles/cart-new.min.css';
+
+/* Fix any minor inconsistencies or helper rules */
+.revealed {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* Ensure smooth image rendering and no layout shifts */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Toast container style */
+#toast-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.toast {
+  background: #2D2D2D;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  pointer-events: auto;
+  animation: slideInRight 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.toast.success {
+  background: #2E7D32;
+  border-left: 4px solid #81C784;
+}
+
+.toast.error {
+  background: #C62828;
+  border-left: 4px solid #EF9A9A;
+}
+
+.toast.fade-out {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

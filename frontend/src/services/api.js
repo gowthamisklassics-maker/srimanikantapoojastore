@@ -10,8 +10,8 @@ export const STORE_DATA = {
   instagram: 'https://www.instagram.com/srimanikanta_poojastores?igsh=MWNqYmdxeGl1Nm9qdw==',
   address: 'P. No. 13, SY No. 58 & 59, Gowrinathpuram, Ph-2, Yellareddyguda, Circle 07 Kapra, Malkajgiri, Telangana – 500062',
   fullAddress: 'P. No. 13, SY No. 58 & 59, Gowrinathpuram, Ph-2, Yellareddyguda, Circle 07 Kapra, Malkajgiri Municipal Corporation, Telangana, 500062',
-  mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7615.796686244467!2d78.51863469196398!3d17.36862398406134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9992e24cfac1%3A0x84d6068085b897e0!2sSri%20manikanta%20pooja%20stores!5e0!3m2!1sen!2sin!4v1782628485698!5m2!1sen!2sin',
-  mapLink: 'https://maps.app.goo.gl/y4TFYSYQsG3ZiySJ8',
+  mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d944.4591984688808!2d78.56711814012924!3d17.49738398427257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9d3dfd31cb91%3A0x97c2f02c5572d51f!2sFruveto!5e0!3m2!1sen!2sin!4v1792834327617!5m2!1sen!2sin',
+  mapLink: 'https://www.google.com/maps/dir/?api=1&destination=17.49738398427257,78.56711814012924',
   hours: {
     weekdays: '8:00 AM – 10:00 PM',
     saturday: '8:00 AM – 10:00 PM',

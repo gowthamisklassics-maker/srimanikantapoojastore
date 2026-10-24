@@ -112,7 +112,7 @@ class Address(db.Model):
     locality = db.Column(db.String(100), default='')
     landmark = db.Column(db.String(100), default='')
     city = db.Column(db.String(100), default='Hyderabad')
-    pincode = db.Column(db.String(10), default='500060')
+    pincode = db.Column(db.String(10), default='500062')
     is_default = db.Column(db.Boolean, default=False)
 
     def to_dict(self):
@@ -140,7 +140,7 @@ class Order(db.Model):
     customer_email = db.Column(db.String(100), nullable=True)
     delivery_address = db.Column(db.Text, nullable=False)
     city = db.Column(db.String(100), default='Hyderabad')
-    pincode = db.Column(db.String(10), default='500060')
+    pincode = db.Column(db.String(10), default='500062')
     payment_method = db.Column(db.String(50), default='cod') # 'cod', 'upi', 'whatsapp'
     payment_status = db.Column(db.String(50), default='pending') # 'pending', 'paid', 'verified'
     order_status = db.Column(db.String(50), default='Processing')

@@ -111,7 +111,7 @@ export default function Register() {
                   type="tel"
                   id="reg-mobile"
                   className="form-control"
-                  placeholder="+91 98499 XXXXX"
+                  placeholder="+91 80745 XXXXX"
                   value={mobile}
                   onChange={(e) => setMobile(e.target.value)}
                   required

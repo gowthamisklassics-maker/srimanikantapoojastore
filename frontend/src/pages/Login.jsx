@@ -35,7 +35,7 @@ export default function Login() {
             id: 1,
             full_name: 'Devotee User',
             email: emailOrMobile.includes('@') ? emailOrMobile : 'devotee@manikanta.com',
-            mobile: emailOrMobile.includes('@') ? '9849985423' : emailOrMobile
+            mobile: emailOrMobile.includes('@') ? '8074595152' : emailOrMobile
           };
           handleLogin('demo_token_123', mockUser);
           showToast('Welcome back! Logged in successfully.', 'success');
@@ -57,7 +57,7 @@ export default function Login() {
         <div className="auth-header">
           <span className="logo">🕉️</span>
           <h1>Sri Manikanta Pooja Stores</h1>
-          <p>Dilsukhnagar, Hyderabad</p>
+          <p>Kapra, Malkajgiri, Hyderabad</p>
         </div>
 
         <div className="auth-body">
@@ -88,7 +88,7 @@ export default function Login() {
                   type="text"
                   id="login-identity"
                   className="form-control"
-                  placeholder="e.g. 9849985423 or devotee@email.com"
+                  placeholder="e.g. 8074595152 or devotee@email.com"
                   value={emailOrMobile}
                   onChange={(e) => setEmailOrMobile(e.target.value)}
                   required
@@ -122,7 +122,7 @@ export default function Login() {
                 className="forgot-link"
                 onClick={(e) => {
                   e.preventDefault();
-                  alert('For password reset, please WhatsApp us at +91 91105 82086 with your registered mobile number.');
+                  alert('For password reset, please WhatsApp us at +91 80745 95152 with your registered mobile number.');
                 }}
               >
                 Forgot Password?

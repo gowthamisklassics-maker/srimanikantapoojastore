@@ -20,7 +20,7 @@ export default function WhyChooseUs() {
     {
       icon: 'fas fa-truck-fast',
       title: 'Fast Delivery',
-      desc: 'Same-day delivery within Dilsukhnagar and nearby areas. Next-day delivery across Hyderabad on all orders above ₹599.'
+      desc: 'Same-day delivery within Kapra, Malkajgiri and nearby areas. Next-day delivery across Hyderabad on all orders above ₹599.'
     },
     {
       icon: 'fas fa-rupee-sign',

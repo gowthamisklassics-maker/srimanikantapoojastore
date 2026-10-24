@@ -3,13 +3,13 @@ const API_BASE = '/api';
 
 export const STORE_DATA = {
   name: 'Sri Manikanta Pooja Stores',
-  phones: ['+91 91105 82086', '+91 98499 85423', '+91 91828 14818', '+91 90147 58196'],
-  whatsapp: '919849985423',
-  whatsapp2: '919110582086',
+  phones: ['+91 80745 95152'],
+  whatsapp: '918074595152',
+  whatsapp2: '918074595152',
   whatsappGroup: 'https://chat.whatsapp.com/KoJUjAeLjgFDm00ZMESWnx',
   instagram: 'https://www.instagram.com/srimanikanta_poojastores?igsh=MWNqYmdxeGl1Nm9qdw==',
-  address: 'Konark Theatre Ln, opp. Sanjay Super Market, Dilsukhnagar, Hyderabad – 500060',
-  fullAddress: 'Sri Manikanta pooja stores, P&T coloney, dilsukhnagar., Konark Theatre Ln, opposite Sanjay Super Market, Dilsukhnagar, Hyderabad, Telangana 500060',
+  address: 'P. No. 13, SY No. 58 & 59, Gowrinathpuram, Ph-2, Yellareddyguda, Circle 07 Kapra, Malkajgiri, Telangana – 500062',
+  fullAddress: 'P. No. 13, SY No. 58 & 59, Gowrinathpuram, Ph-2, Yellareddyguda, Circle 07 Kapra, Malkajgiri Municipal Corporation, Telangana, 500062',
   mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7615.796686244467!2d78.51863469196398!3d17.36862398406134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9992e24cfac1%3A0x84d6068085b897e0!2sSri%20manikanta%20pooja%20stores!5e0!3m2!1sen!2sin!4v1782628485698!5m2!1sen!2sin',
   mapLink: 'https://maps.app.goo.gl/y4TFYSYQsG3ZiySJ8',
   hours: {

@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function AnnouncementBar() {
   const tickerItems = [
-    '📞 Call us: +91 91105 82086 | +91 98499 85423 | +91 91828 14818',
+    '📞 Call us: +91 80745 95152',
     '🚚 Home Delivery — Free above ₹5000 or within 5km',
-    '💬 WhatsApp us: +91 91105 82086 | +91 90147 58196',
+    '💬 WhatsApp us: +91 80745 95152',
     '🌿 100% Natural & Pure Ingredients',
     '🛒 Wholesale items available at best prices',
     '⭐ Best Quality Guaranteed on all products',

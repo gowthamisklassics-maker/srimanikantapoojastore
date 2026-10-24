@@ -14,7 +14,7 @@ export default function Footer() {
             <span className="logo-name">🕉️ Sri Manikanta Pooja Stores</span>
             <p className="footer-tagline">
               Your trusted source for authentic Hindu pooja samagri in Hyderabad since 2005.
-              Where Devotion Meets Tradition — serving thousands of families across Dilsukhnagar
+              Where Devotion Meets Tradition — serving thousands of families across Kapra, Malkajgiri, Hyderabad
               with pure, premium religious items for every occasion.
             </p>
             <div className="footer-socials">
@@ -84,10 +84,12 @@ export default function Footer() {
               <div className="contact-item">
                 <i className="fas fa-phone-alt"></i>
                 <span>
-                  <a href={`tel:${storeInfo.phones[0]}`}>{storeInfo.phones[0]}</a><br />
-                  <a href={`tel:${storeInfo.phones[1]}`}>{storeInfo.phones[1]}</a><br />
-                  <a href={`tel:${storeInfo.phones[2]}`}>{storeInfo.phones[2]}</a><br />
-                  <a href={`tel:${storeInfo.phones[3]}`}>{storeInfo.phones[3]}</a>
+                  {storeInfo.phones.map((phone, idx) => (
+                    <React.Fragment key={idx}>
+                      <a href={`tel:${phone.replace(/\s+/g, '')}`}>{phone}</a>
+                      {idx < storeInfo.phones.length - 1 && <br />}
+                    </React.Fragment>
+                  ))}
                 </span>
               </div>
               <div className="contact-item">

@@ -389,12 +389,15 @@ def seed_database():
                 db.session.add(r)
                 
         # Seed demo user
-        demo_user = User.query.filter_by(mobile="9849985423").first()
-        if not demo_user:
+        demo_user = User.query.filter((User.mobile == "8074595152") | (User.email == "devotee@manikanta.com")).first()
+        if demo_user:
+            demo_user.mobile = "8074595152"
+            demo_user.password_hash = generate_password_hash("Devotion@108")
+        else:
             demo_user = User(
                 full_name="Rajesh Sharma",
                 email="devotee@manikanta.com",
-                mobile="9849985423",
+                mobile="8074595152",
                 password_hash=generate_password_hash("Devotion@108")
             )
             db.session.add(demo_user)

@@ -23,7 +23,7 @@ export default function Checkout() {
   const [address, setAddress] = useState('');
   const [locality, setLocality] = useState('');
   const [city, setCity] = useState('Hyderabad');
-  const [pincode, setPincode] = useState('500060');
+  const [pincode, setPincode] = useState('500062');
   const [notes, setNotes] = useState('');
   const [paymentMethod, setPaymentMethod] = useState('cod'); // 'cod', 'upi', 'whatsapp'
 
@@ -312,7 +312,7 @@ export default function Checkout() {
                       <input
                         type="tel"
                         className="form-control"
-                        placeholder="+91 98499 XXXXX"
+                        placeholder="+91 80745 XXXXX"
                         value={mobile}
                         onChange={(e) => setMobile(e.target.value)}
                         required
@@ -355,7 +355,7 @@ export default function Checkout() {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="e.g. Dilsukhnagar"
+                        placeholder="e.g. Kapra, Malkajgiri"
                         value={locality}
                         onChange={(e) => setLocality(e.target.value)}
                       />
@@ -666,7 +666,7 @@ export default function Checkout() {
               />
             </div>
             <div style={{ margin: '16px 0', fontSize: '13px' }}>
-              <strong>UPI ID:</strong> <code>9849985423@ybl</code>
+              <strong>UPI ID:</strong> <code>8074595152@ybl</code>
             </div>
             <button
               type="button"

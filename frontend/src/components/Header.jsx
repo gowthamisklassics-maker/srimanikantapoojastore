@@ -99,7 +99,7 @@ export default function Header() {
                   Pooja Stores
                 </span>
                 <span className="logo-sub" style={{ marginTop: '2px' }}>
-                  P&amp;T Colony, Dilsukhnagar, Hyderabad
+                  Kapra, Malkajgiri, Hyderabad
                 </span>
               </div>
             </Link>

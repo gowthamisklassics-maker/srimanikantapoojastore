@@ -131,7 +131,7 @@ export default function Reviews() {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="e.g. Dilsukhnagar, Hyderabad"
+                  placeholder="e.g. Kapra, Malkajgiri"
                   value={location}
                   onChange={(e) => setLocation(e.target.value)}
                 />

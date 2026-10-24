@@ -432,7 +432,7 @@ export default function ProductDetails() {
                   <i className="fas fa-shield-alt"></i> Guaranteed Authentic Product
                 </div>
                 <div className="product-feature-item">
-                  <i className="fas fa-map-marker-alt"></i> Sri Manikanta Stores · Dilsukhnagar, Hyderabad
+                  <i className="fas fa-map-marker-alt"></i> Sri Manikanta Stores · Kapra, Malkajgiri, Hyderabad
                 </div>
               </div>
             </div>

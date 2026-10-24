@@ -46,7 +46,7 @@ export default function About() {
       <div className="page-banner">
         <div className="container">
           <h1>About Our Store</h1>
-          <p>Serving Devotion Since 2005 — Dilsukhnagar, Hyderabad</p>
+          <p>Serving Devotion Since 2005 — Kapra, Malkajgiri, Hyderabad</p>
           <div className="breadcrumb">
             <Link to="/">Home</Link>
             <i className="fas fa-chevron-right"></i>
@@ -70,7 +70,7 @@ export default function About() {
                 Sri Manikanta Pooja Stores was founded with a simple yet sacred mission: to provide every Hindu family in Hyderabad with genuine, pure-quality pooja samagri that truly honors their devotion.
               </p>
               <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, marginBottom: '20px' }}>
-                Located in the heart of Dilsukhnagar, opposite Sanjay Super Market, our store has been the trusted source for thousands of families across Hyderabad for all their pooja needs — from daily rituals to grand wedding ceremonies and every festival in between.
+                Located at P. No. 13, SY No. 58 & 59, Gowrinathpuram, Ph-2, Yellareddyguda, Circle 07 Kapra, Malkajgiri Municipal Corporation, our store has been the trusted source for thousands of families across Hyderabad for all their pooja needs — from daily rituals to grand wedding ceremonies and every festival in between.
               </p>
               <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, marginBottom: '32px' }}>
                 We personally source our products from the finest suppliers across India — camphor from Tamil Nadu, pure ghee from desi cow farms, authentic rudraksha from Nepal, and premium agarbatti from Bangalore. Every item on our shelves passes our quality check before reaching you.

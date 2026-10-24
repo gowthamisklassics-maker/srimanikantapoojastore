@@ -184,12 +184,8 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ## 📞 Verified Store Contact Information
 - **Store Name**: Sri Manikanta Pooja Stores
-- **Address**: Konark Theatre Lane, opposite Sanjay Super Market, P&T Colony, Dilsukhnagar, Hyderabad, Telangana 500060
-- **Phone Numbers**:
-  - `+91 91105 82086`
-  - `+91 98499 85423`
-  - `+91 91828 14818`
-  - `+91 90147 58196`
-- **WhatsApp Support**: `919849985423` & `919110582086`
+- **Address**: P. No. 13, SY No. 58 & 59, Gowrinathpuram, Ph-2, Yellareddyguda, Circle 07 Kapra, Malkajgiri Municipal Corporation, Telangana, 500062
+- **Phone Number**: `+91 80745 95152`
+- **WhatsApp Support**: `918074595152`
 - **Instagram**: `@srimanikanta_poojastores`
 - **WhatsApp Community**: [Join Community](https://chat.whatsapp.com/KoJUjAeLjgFDm00ZMESWnx)

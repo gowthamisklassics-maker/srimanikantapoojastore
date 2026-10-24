@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+.npm
+.eslintcache
+
+# Production builds
+dist/
+frontend/dist/
+build/
+
+# Python / Flask
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Environment and local databases
+.env
+*.local
+backend/instance/*.db
+backend/*.db
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+/srimanikanta.zip
+/srimanikanta_clean.zip
+/srimanikanta1.zip

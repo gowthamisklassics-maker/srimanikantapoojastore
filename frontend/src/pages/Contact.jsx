@@ -83,21 +83,11 @@ export default function Contact() {
             </div>
           </div>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
-            <a href="tel:+919849985423" className="btn btn-primary btn-lg">
-              <i className="fas fa-phone-alt"></i> Call: +91 98499 85423
-            </a>
-            <a href="tel:+919182814818" className="btn btn-secondary btn-lg">
-              <i className="fas fa-phone-alt"></i> Call: +91 91828 14818
+            <a href="tel:+918074595152" className="btn btn-primary btn-lg">
+              <i className="fas fa-phone-alt"></i> Call: +91 80745 95152
             </a>
             <a
-              href="tel:+919110582086"
-              className="btn btn-outline btn-lg"
-              style={{ borderColor: 'var(--saffron)', color: 'var(--saffron)', background: 'white' }}
-            >
-              <i className="fas fa-phone-alt"></i> Call: +91 91105 82086
-            </a>
-            <a
-              href={`https://wa.me/${STORE_DATA.whatsapp2}?text=Hello!%20I%20visited%20your%20website%20and%20need%20help%20with%20pooja%20items.`}
+              href={`https://wa.me/${STORE_DATA.whatsapp}?text=Hello!%20I%20visited%20your%20website%20and%20need%20help%20with%20pooja%20items.`}
               target="_blank"
               rel="noreferrer"
               className="btn btn-whatsapp btn-lg"
@@ -146,8 +136,8 @@ export default function Contact() {
                     <div className="contact-info-text">
                       <strong>Store Address</strong>
                       <span style={{ display: 'block', color: 'var(--text-muted)', marginTop: '4px' }}>
-                        Konark Theatre Lane, opposite Sanjay Super Market,<br />
-                        Dilsukhnagar, Hyderabad, Telangana – 500060
+                        P. No. 13, SY No. 58 &amp; 59, Gowrinathpuram, Ph-2, Yellareddyguda,<br />
+                        Circle 07 Kapra, Malkajgiri Municipal Corporation, Telangana – 500062
                       </span>
                     </div>
                   </div>
@@ -157,11 +147,9 @@ export default function Contact() {
                       <i className="fas fa-phone-alt"></i>
                     </div>
                     <div className="contact-info-text">
-                      <strong>Phone Numbers</strong>
+                      <strong>Phone Number</strong>
                       <span style={{ display: 'block', color: 'var(--text-muted)', marginTop: '4px' }}>
-                        <a href="tel:+919110582086">+91 91105 82086</a><br />
-                        <a href="tel:+919849985423">+91 98499 85423</a><br />
-                        <a href="tel:+919182814818">+91 91828 14818</a>
+                        <a href="tel:+918074595152">+91 80745 95152</a>
                       </span>
                     </div>
                   </div>
@@ -173,8 +161,7 @@ export default function Contact() {
                     <div className="contact-info-text">
                       <strong>WhatsApp Support</strong>
                       <span style={{ display: 'block', color: 'var(--text-muted)', marginTop: '4px' }}>
-                        <a href="https://wa.me/919110582086" target="_blank" rel="noreferrer">+91 91105 82086</a><br />
-                        <a href="https://wa.me/919014758196" target="_blank" rel="noreferrer">+91 90147 58196</a>
+                        <a href="https://wa.me/918074595152" target="_blank" rel="noreferrer">+91 80745 95152</a>
                       </span>
                     </div>
                   </div>
@@ -323,7 +310,7 @@ export default function Contact() {
               <h3 style={{ fontFamily: 'var(--font-heading)', color: 'var(--maroon)', fontSize: 'var(--text-xl)', marginBottom: '16px' }}>
                 <i className="fas fa-info-circle" style={{ color: 'var(--saffron)' }}></i> Quick Facts
               </h3>
-              <div className="hours-row"><span className="hours-day">📍 Location</span><span className="hours-time">Dilsukhnagar, Hyderabad</span></div>
+              <div className="hours-row"><span className="hours-day">📍 Location</span><span className="hours-time">Kapra, Malkajgiri, Hyderabad</span></div>
               <div className="hours-row"><span className="hours-day">🚚 Delivery</span><span className="hours-time">All Hyderabad areas</span></div>
               <div className="hours-row"><span className="hours-day">📦 Products</span><span className="hours-time">500+ items</span></div>
               <div className="hours-row"><span className="hours-day">🚚 Free Delivery</span><span className="hours-time">Above ₹5000 &amp; within 5km</span></div>
@@ -343,7 +330,7 @@ export default function Contact() {
               Visit Our <span>Store</span>
             </h2>
             <p className="section-subtitle">
-              Konark Theatre Lane, opposite Sanjay Super Market, Dilsukhnagar, Hyderabad – 500060
+              P. No. 13, SY No. 58 &amp; 59, Gowrinathpuram, Ph-2, Yellareddyguda, Circle 07 Kapra, Malkajgiri Municipal Corporation, Telangana, 500062
             </p>
           </div>
           <div className="map-wrapper" style={{ borderRadius: '16px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)' }}>

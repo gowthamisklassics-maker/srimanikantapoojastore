@@ -79,7 +79,7 @@ export default function QuickEnquiryModal() {
             </div>
             <div className="enquiry-info-item">
               <i className="fas fa-map-marker-alt"></i>
-              <span>P&amp;T Colony, Dilsukhnagar,<br />Hyderabad – 500060</span>
+              <span>P. No. 13, Gowrinathpuram, Ph-2,<br />Kapra, Malkajgiri – 500062</span>
             </div>
             <div className="enquiry-info-item">
               <i className="fas fa-clock"></i>
@@ -89,7 +89,7 @@ export default function QuickEnquiryModal() {
               <i className="fab fa-whatsapp" style={{ color: '#25D366' }}></i>
               <span>Avg. reply time<br /><strong>Under 30 mins</strong></span>
             </div>
-            <a href="tel:+919110582086" className="enquiry-call-btn">
+            <a href="tel:+918074595152" className="enquiry-call-btn">
               <i className="fas fa-phone-alt"></i> Call Now
             </a>
             <a href={`https://wa.me/${storeInfo.whatsapp2}`} target="_blank" rel="noreferrer" className="enquiry-wa-direct-btn">
